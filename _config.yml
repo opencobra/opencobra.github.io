@@ -15,7 +15,7 @@ wpm: 150
 port: 4444
 permalink: /:title
 
-baseurl: /
+baseurl: 
 
 # jekyll-paginate
 paginate: 5
