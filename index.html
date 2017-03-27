@@ -15,7 +15,7 @@ layout: default
                     {% for item in site.packages %}
                     <li>
                         <span class="icon major {{item.style}}"><a href="{{item.remoteurl}}"><img src="{{item.image}}" height="{{item.size}}"/></a></span>
-                        <h3><a href="{{item.remoteurl}}">{{ item.title }}</a></h3>
+                        <h3><br><a href="{{item.remoteurl}}">{{ item.title }}</a></h3>
                         <p>{{ item.description }}</p><br>
                         <a href="{{ item.remoteurl }}"><img src="images/githubLOGO.png" height="45px"></a><br>
                         <a href="{{ item.remoteweb }}" class="button">Learn More</a>
@@ -39,8 +39,10 @@ layout: default
                           <p>
                             Although <b>COBRA</b> methods may not provide a unique solution, they provide a <b>reduced set of solutions</b> that may be used to <b>guide</b> biological hypothesis <b>development</b>. Given its success, COBRA has attracted attention from many investigators and has <b>developed rapidly in recent years</b> based on contributions from a growing number of laboratories – COBRA methods have been used in <b>hundreds of studies</b> to deal with the complex relationships and high dimensionality of the next generation of COBRA models.</p>
                     </div>
-                    <span class="image"><img src="images/stoichio.png" alt="" /></span>
-                </div>
+                    <span class="image"><img src="images/stoichio.png" alt="" />
+                    <div class="overlay">Representation of a stoichiometric matrix <br>[2785 x 3820] - <b>Human Model Recon 1</b>.</div>
+                    </span>
+                    </div>
             </section>
             <section id="intro" class="main">
                 <div class="spotlight">
@@ -52,7 +54,9 @@ layout: default
 <br>
                         <p>The openCOBRA project is currently lead by <a href="http://wwwen.uni.lu/lcsb/research/systems_biochemistry/"><b>Ronan Fleming</b></a> from the University of Luxembourg, <a href="http://www.dtu.dk/english/service/phonebook/person?id=87972&tab=2&qt=dtupublicationqueryy"><b>Nikolaus Sonnenschein</b></a> from the Technical University of Denmark, and <a href="http://lewislab.ucsd.edu"><b>Nathan Lewis</b></a> from UCSD.</p>
                     </div>
-                    <span class="image"><img src="images/history.png" alt="" /></span>
+                    <span class="image"><img src="images/history.gif" alt="" />
+                    <div class="overlay">Evolution of the repository of <br><b>The COBRA Toolbox</b> (2016-2017).</div>
+                    </span>
                 </div>
             </section>
             <section id="citation" class="main special">
@@ -61,7 +65,7 @@ layout: default
                 </header>
                     {% for item in site.citation %}
                     <p style="clear: both;">
-                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ site.baseurl }}/{{ item.image }}" alt="" height="185px" /></span>
+                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ site.baseurl }}/{{ item.image }}" alt="" height="{{ item.height }}"/></span>
                     <h3> <div align="left">{{ item.title }}<div> </h3>
                     <div align="left">{{ item.description }}</div>
                     <br>

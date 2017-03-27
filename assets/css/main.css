@@ -2352,6 +2352,27 @@ input[type="radio"]:focus + label:before {
 
 
 /* Image */
+.overlay {
+    display:none;
+}
+
+span.image:hover .overlay {
+    width:90%;
+    position:absolute;
+    text-align: center;
+    top:110%;
+    font-size: 14pt;
+    background-color: rgba(240, 240, 240, 1);
+    left:5%;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+    img {
+        vertical-align:top; /* Default is baseline, this fixes a common alignment issue */
+    }
+}
 
 .image {
     border-radius: 8px;
@@ -2372,7 +2393,7 @@ input[type="radio"]:focus + label:before {
 
 .image.left img,
 .image.right img {
-    width: 100%;
+    width: 150px;
 }
 
 .image.left {
