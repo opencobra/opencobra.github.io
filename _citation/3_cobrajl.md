@@ -1,5 +1,6 @@
 ---
 title: <b>COBRA.jl</b>
 image: images/COBRAToolboxlogo_julia.svg
-description: Heirendt L, Fleming RMT, Thiele I. 2016, <a href="https://arxiv.org/abs/1611.04743"><b>DistributedFBA.jl&#58 High-level, high-performance flux balance analysis in Julia</b></a>, accepted for publication, arXiv &#58 1611.04743.
+height: 185px
+description: Heirendt L, Thiele I. 2016, Fleming RMT, <a href="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btw838"><b>DistributedFBA.jl&#58 High-level, high-performance flux balance analysis in Julia</b></a>, Bioinformatics 2017 btw838. doi - 10.1093/bioinformatics/btw838
 ---
