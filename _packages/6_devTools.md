@@ -1,5 +1,5 @@
 ---
-title: MATLAB devTools
+title: MATLAB.devTools
 image: images/devTools_logo.png
 size: 130px
 remoteurl: https://github.com/opencobra/MATLAB.devTools
