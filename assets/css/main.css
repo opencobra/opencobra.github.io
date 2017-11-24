@@ -2394,6 +2394,7 @@ span.image:hover .overlay {
 .image.left img,
 .image.right img {
     width: 150px;
+    height: 240px;
 }
 
 .image.left {
