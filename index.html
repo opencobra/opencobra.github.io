@@ -14,8 +14,8 @@ layout: default
                 <ul class="features">
                     {% for item in site.packages %}
                     <li>
-                        <span class="icon major {{item.style}}"><a href="{{item.remoteurl}}"><img src="{{item.image}}" height="{{item.size}}"/></a></span>
-                        <h3><br><a href="{{item.remoteurl}}">{{ item.title }}</a></h3>
+                        <span class="icon major {{item.style}}"><a href="{{item.remoteweb}}"><img src="{{item.image}}" height="{{item.size}}"/></a></span>
+                        <h3><br><a href="{{item.remoteweb}}">{{ item.title }}</a></h3>
                         <p>{{ item.description }}</p><br>
                         <a href="{{ item.remoteurl }}"><img src="images/githubLOGO.png" height="45px"></a><br>
                         <a href="{{ item.remoteweb }}" class="button">Learn More</a>
